@@ -1213,6 +1213,10 @@ body.offcanvas .oliven-nav-toggle {
 /* ======= Wedding Countdown style ======= */
 
 #countdown {
+    background-position: 180px 0px;
+}
+
+#countdown {
     text-align: center;
 }
 
@@ -1516,6 +1520,10 @@ body.offcanvas .oliven-nav-toggle {
 }
 
 /* ======= See You style ======= */
+
+#seeyou {
+    background-position: 70px 0px;
+}
 
 .seeyou .section-head span {
     color: #fff;
@@ -1894,6 +1902,22 @@ body.offcanvas .oliven-nav-toggle {
         padding: 100px 30px 80px 30px;
         text-align: center;
     }
+}
+
+#rsvp .container {
+    margin-left: 50em;
+}
+
+#rsvp .container p {
+    font-size: 1.4rem;
+    color: black;
+}
+
+#map {
+    margin: auto auto;
+    width: 90%;
+    /* width: 400px; */
+    height: 500px;
 }
 
 /* ==== Preloader ==== */
@@ -2363,6 +2387,26 @@ body.offcanvas .oliven-nav-toggle {
         margin: 0;
         text-align: center;
     }
+
+    #rsvp .container p {
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    #map {
+        margin: auto auto;
+        width: 90%;
+        /* width: 400px; */
+        height: 300px;
+    }
+
+    .footer2 .copyright {
+        font-size: 0.9rem;
+    }
+
+    .img {
+        background-size: cover;
+    }
 }
 
 /* ==== Media Query ==== */
@@ -2398,8 +2442,70 @@ body.offcanvas .oliven-nav-toggle {
     }
 }
 
+@media (max-width: 1350px) {
+    #rsvp .container {
+        margin-left: 40em;
+    }
+
+    #oliven-aside .oliven-logo a span {
+        font-size: 26px;
+    }
+
+    #seeyou {
+        background-position: 40px 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #rsvp .container {
+        margin-left: 25em;
+    }
+}
+
 @media (max-width: 992px) {
+    #rsvp .container {
+        margin-left: 18em;
+    }
+
     .bg-fixed {
         background-attachment: scroll !important;
+    }
+
+    #rsvp {
+        background-position: -150px 0px;
+    }
+
+    #seeyou {
+        background-position: -0px -10px;
+    }
+
+    #countdown {
+        background-position: 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #rsvp .container {
+        margin-left: 0em;
+    }
+
+    #rsvp {
+        background-position: 0px 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    #rsvp {
+        background-position: -50px 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    #seeyou {
+        background-position: -55px 0px;
+    }
+
+    #countdown {
+        background-position: -140px 0px;
     }
 }
