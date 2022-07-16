@@ -7,6 +7,7 @@
     <title id="korean">윤예찬 ❤️ 우주안의 결혼식 청첩장</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -21,6 +22,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144098545-1"></script>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=751ee33b3bf401168c735ae9b016fd98"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        // SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해 주세요.
+        Kakao.init('751ee33b3bf401168c735ae9b016fd98');
+
+        // SDK 초기화 여부를 판단합니다.
+        console.log(Kakao.isInitialized());
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -47,23 +56,22 @@
             <div class="oliven-logo">
                 <a href="index.html">
                     <img src="images/logo.png" alt="">
-                    <span id="korean">윤예찬 <small>❤️</small> 우주안</span>
+                    <span id="korean">윤예찬 <small>♡</small> 우주안</span>
                     <h6 id="korean">2022.09.03 토요일</h6>
                 </a>
             </div>
             <!-- Menu -->
             <nav class="oliven-main-menu">
                 <ul>
-                    <li><a id="korean" href="index.html#home">Home</a></li>
-                    <li><a id="korean" href="index.html#couple">Couple</a></li>
-                    <li><a id="korean" href="index.html#story">Our Story</a></li>
-                    <li><a id="korean" href="index.html#gallery">Gallery</a></li>
+                    <li><a id="korean" href="index.html#home">처음으로</a></li>
+                    <li><a id="korean" href="index.html#story">인사의 말</a></li>
+                    <li><a id="korean" href="index.html#gallery">갤러리</a></li>
                     <li><a id="korean" href="index.html#findingmap">찾아오는 길</a></li>
                 </ul>
             </nav>
             <!-- Sidebar Footer -->
             <div class="footer1"> <span class="separator"></span>
-                <p id="korean">윤예찬 ❤️ 우주안의 결혼식<br />03 September 2022, Seoul</p>
+                <p id="korean">윤예찬 ♡ 우주안의 결혼식<br />2022년 9월 3일<br />서울대학교 호암교수회관</p>
             </div>
         </aside>
         <!-- Content Section -->
@@ -73,8 +81,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center caption">
-                            <h1 class="animate-box" data-animate-effect="fadeInUp">Yechan & Jooan</h1>
-                            <h5 class="animate-box" id="korean" data-animate-effect="fadeInUp">03 September 2022, Seoul</h5>
+                            <h1 class="animate-box" id="korean" data-animate-effect="fadeInUp">윤예찬 ♡ 우주안</h1>
+                            <h5 class="animate-box" id="korean" data-animate-effect="fadeInUp">2022년 9월 3일<br />서울대학교 호암교수회관</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -95,13 +103,13 @@
                                 <div class="img"> <img src="images/groom.jpg" alt=""> </div>
                                 <div class="info valign">
                                     <div class="full-width">
-                                        <h6 id="korean">윤예찬 <i class="ti-heart"></i></h6> <span id="korean">신랑</span>
+                                        <h6 id="korean">윤예찬</h6> <span id="korean">신랑</span>
                                         <p>Olivia fringilla dui at elit finibus viverra thenec a lacus seda themo the miss druane semper non the fermen.</p>
                                         <div class="social">
                                             <div class="full-width">
-                                                <a href="#0" class="icon"> <i class="ti-facebook"></i> </a>
-                                                <a href="#0" class="icon"> <i class="ti-twitter"></i> </a>
-                                                <a href="#0" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="tel:01031549920" class="icon"> <i class="fas fa-phone"></i> </a>
+                                                <a href="sms:01031549920" class="icon"> <i class="fas fa-comment"></i> </a>
+                                                <a href="http://qr.kakao.com/talk/YDhr.1gIC0j_r_PMaXYljnXkB24-" class="icon"> <i class="fab fa-kickstarter"></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -113,13 +121,13 @@
                                 <div class="img"> <img src="images/bride.jpg" alt=""> </div>
                                 <div class="info valign">
                                     <div class="full-width">
-                                        <h6 id="korean">우주안 <i class="ti-heart"></i></h6> <span id="korean">신부</span>
+                                        <h6 id="korean">우주안</h6> <span id="korean">신부</span>
                                         <p>Enrico fringilla dui at elit finibus viverra thenec a lacus seda themo the miss druane semper non the fermen.</p>
                                         <div class="social">
                                             <div class="full-width">
-                                                <a href="#0" class="icon"> <i class="ti-facebook"></i> </a>
-                                                <a href="#0" class="icon"> <i class="ti-twitter"></i> </a>
-                                                <a href="#0" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="tel:01073724117" class="icon"> <i class="fas fa-phone"></i> </a>
+                                                <a href="sms:01073724117" class="icon"> <i class="fas fa-comment"></i> </a>
+                                                <a href="http://qr.kakao.com/talk/MtgPAqp59c_mujcK_GMTz_um2wc-" class="icon"> <i class="fab fa-kickstarter"></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -130,13 +138,13 @@
                     <div class="row">
                         <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
                             <h3 class="oliven-couple-title">Are getting married!</h3>
-                            <h4 class="oliven-couple-subtitle" id="korean">September 03, 2022 — 서울대학교 호암교수회관</h4>
+                            <h4 class="oliven-couple-subtitle" id="korean">September 03, 2022<br />서울대학교 호암교수회관</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Countdown -->
-            <div id="countdown" class="section-padding bg-img bg-fixed" data-background="images/banner-1.jpg">
+            <div id="countdown" class="section-padding bg-img bg-fixed" data-background="images/8709.jpeg">
                 <div class="container">
                     <div class="row">
                         <div class="section-head col-md-12">
@@ -203,6 +211,7 @@
                             <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
                             <li class="list-inline-item"><a class="" data-filter=".ceremony">Ceremony</a></li>
                             <li class="list-inline-item"><a class="" data-filter=".party">Party</a></li>
+                            <li class="list-inline-item"><a class="" data-filter=".test">Test</a></li>
                         </ul>
                     </div>
                 </div>
@@ -268,6 +277,36 @@
                                 </div>
                             </a>
                         </div>
+                        <div class="col-md-4 gallery-item test">
+                            <a href="images/gallery/1.jpg" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="images/gallery/1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                    <div class="gallery-detail">
+                                        <h4 class="mb-0">Wedding Party</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-item test">
+                            <a href="images/gallery/2.jpg" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="images/gallery/2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                    <div class="gallery-detail">
+                                        <h4 class="mb-0">Wedding Party</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-item test">
+                            <a href="images/gallery/3.jpg" class="img-zoom">
+                                <div class="gallery-box">
+                                    <div class="gallery-img"> <img src="images/gallery/3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                    <div class="gallery-detail">
+                                        <h4 class="mb-0">Wedding Party</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -324,6 +363,34 @@ var infowindow = new kakao.maps.InfoWindow({
   
 // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
 infowindow.open(map, marker); 
+</script>
+
+
+<script>
+// Kakao 링크 공유
+Kakao.Share.createDefaultButton({
+    container: '#kakaoshare',
+    objectType: 'feed',
+    content: {
+        title: '윤예찬 ♡ 우주안 모바일 청첩장',
+        description: '윤예찬 ♡ 우주안의 결혼식에 오셔서 자리를 빛내주세요',
+        imageUrl:
+            'https://github.com/yyc9920/wedding_invitation/blob/master/images/slider.jpg?raw=true',
+        link: {
+            mobileWebUrl: 'https://yyc9920.github.io/wedding_invitation/',
+            webUrl: 'https://yyc9920.github.io/wedding_invitation/',
+        },
+    },
+    buttons: [
+        {
+            title: '자세히 보기',
+            link: {
+                mobileWebUrl: 'https://yyc9920.github.io/wedding_invitation/',
+                webUrl: 'https://yyc9920.github.io/wedding_invitation/',
+            },
+        },
+    ],
+})
 </script>
                             <p>
                             <div id="disqus_thread"></div>

@@ -43,6 +43,10 @@
     font-family: 'YESMyoungjo-Bold' !important;
 }
 
+#red {
+    color: red;
+}
+
 html,
 body {
     -moz-osx-font-smoothing: grayscale;
@@ -661,7 +665,7 @@ input[type=radio]:checked:before {
     font-weight: 400;
     text-transform: none;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 5px;
     color: #000;
     margin-bottom: 5px;
@@ -725,7 +729,7 @@ input[type=radio]:checked:before {
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.5em;
     letter-spacing: 0.5px;
     -webkit-transition: 0.3s;
@@ -766,7 +770,7 @@ input[type=radio]:checked:before {
 }
 
 #oliven-aside .footer1 p {
-    font-size: 12px;
+    font-size: 15px;
     color: #888;
     letter-spacing: 0.5px;
 }
@@ -989,12 +993,13 @@ body.offcanvas .oliven-nav-toggle {
 
 .header .caption h5 {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 5px;
     margin-bottom: 0;
     color: #fff;
     text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
 }
 
 .header .caption h1 {
@@ -1006,6 +1011,7 @@ body.offcanvas .oliven-nav-toggle {
     display: block;
     line-height: 1em;
     position: relative;
+    text-shadow: 2px 2px 5px black;
 }
 
 .header .caption p {
