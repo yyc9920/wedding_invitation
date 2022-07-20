@@ -1,5 +1,7 @@
 (function() {
     'use strict';
+    // const disqus_footer = document.getElementsByClassName("disqus-footer")
+    // disqus_footer.style.display = "none";
     var isMobile = {
         Android: function() {
             return navigator.userAgent.match(/Android/i);
