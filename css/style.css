@@ -1198,18 +1198,18 @@ body.offcanvas .oliven-nav-toggle {
 }
 
 .bridegroom .toright .img {
-    float: right;
+    float: center;
 }
 
 .bridegroom .toright .info {
-    margin-left: 0;
-    margin-right: 160px;
-    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .bridegroom .toright .info .social a {
-    margin-right: 0;
-    margin-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media screen and (max-width: 991px) {
