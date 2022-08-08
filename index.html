@@ -81,7 +81,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center caption">
                             <h1 class="animate-box" id="korean" data-animate-effect="fadeInUp">윤예찬 ♡ 우주안</h1>
-                            <h5 class="animate-box" id="korean" data-animate-effect="fadeInUp">2022년 9월 3일<br />서울대학교 호암교수회관</h5>
+                            <h5 class="animate-box" id="korean" data-animate-effect="fadeInUp">2022년 9월 3일<br />오전 11시<br />서울대학교 호암교수회관</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -110,6 +110,10 @@
                                                 <a href="sms:01031549920" class="icon"> <i class="fas fa-comment"></i> </a>
                                                 <a href="http://qr.kakao.com/talk/YDhr.1gIC0j_r_PMaXYljnXkB24-" target="_blank" class="icon"> <i class="fab fa-kickstarter"></i> </a>
                                             </div>
+                                            <div class="full-width">
+                                                <p id="korean">계좌번호 복사하기</p>
+                                                <a href="#none" class="yechan_acc"> <i class="fa fa-gift"></i> </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -128,16 +132,133 @@
                                                 <a href="sms:01073724117" class="icon"> <i class="fas fa-comment"></i> </a>
                                                 <a href="http://qr.kakao.com/talk/MtgPAqp59c_mujcK_GMTz_um2wc-" target="_blank" class="icon"> <i class="fab fa-kickstarter"></i> </a>
                                             </div>
+                                            <div class="full-width">
+                                                <p id="korean">계좌번호 복사하기</p>
+                                                <a href="#none" class="joan_acc"> <i class="fa fa-gift"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="item toright mb-30 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="info valign">
+                                    <div class="full-width">
+                                        <span id="korean">신랑측 혼주</span>
+                                        <h6 id="korean">아버지 윤보선</h6> 
+                                        <div class="social">
+                                            <div class="full-width">
+                                                <a href="tel:01023405738" class="icon"> <i class="fas fa-phone"></i> </a>
+                                                <a href="sms:01023405738" class="icon"> <i class="fas fa-comment"></i> </a>
+                                            </div>
+                                            <div class="full-width">
+                                                <p id="korean">계좌번호 복사하기</p>
+                                                <a href="#none" class="yechan_f_acc"> <i class="fa fa-gift"></i> </a>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <h6 id="korean">어머니 강정애</h6> 
+                                        <div class="social">
+                                            <div class="full-width">
+                                                <a href="tel:01062902079" class="icon"> <i class="fas fa-phone"></i> </a>
+                                                <a href="sms:01062902079" class="icon"> <i class="fas fa-comment"></i> </a>
+                                            </div>
+                                            <div class="full-width">
+                                                <p id="korean">계좌번호 복사하기</p>
+                                                <a href="#none" class="yechan_m_acc"> <i class="fa fa-gift"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="item toright mb-30 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="info valign">
+                                    <div class="full-width">
+                                        <span id="korean">신부측 혼주</span>
+                                        <h6 id="korean">아버지 우복태</h6> 
+                                        <div class="social">
+                                            <div class="full-width">
+                                                <a href="tel:01089444117" class="icon"> <i class="fas fa-phone"></i> </a>
+                                                <a href="sms:01089444117" class="icon"> <i class="fas fa-comment"></i> </a>
+                                            </div>
+                                            <div class="full-width">
+                                                <p id="korean">계좌번호 복사하기</p>
+                                                <a href="#none" class="joan_f_acc"> <i class="fa fa-gift"></i> </a>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <h6 id="korean">어머니 김윤선</h6> 
+                                        <div class="social">
+                                            <div class="full-width">
+                                                <a href="tel:01089444117" class="icon"> <i class="fas fa-phone"></i> </a>
+                                                <a href="sms:01089444117" class="icon"> <i class="fas fa-comment"></i> </a>
+                                            </div>
+                                            <div class="full-width">
+                                                <p id="korean">계좌번호 복사하기</p>
+                                                <a href="#none" class="joan_m_acc"> <i class="fa fa-gift"></i> </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <br/>
+<script>
+    const yechan_acc= document.querySelector('.yechan_acc');
+    const yechan_m_acc= document.querySelector('.yechan_m_acc');
+    const yechan_f_acc= document.querySelector('.yechan_f_acc');
+
+    const joan_acc= document.querySelector('.joan_acc');
+    const joan_m_acc= document.querySelector('.joan_m_acc');
+    const joan_f_acc= document.querySelector('.joan_f_acc');
+
+    function copyToClipboard(val) {
+        var t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = val;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+    }
+
+    yechan_acc.addEventListener('click', () => {
+        copyToClipboard("카카오뱅크 3333108937384 윤예찬")
+        alert('복사되었습니다, 감사합니다.');
+    });
+
+    yechan_m_acc.addEventListener('click', () => {
+        copyToClipboard("카카오뱅크 3333108937384")
+        alert('복사되었습니다, 감사합니다.');
+    });
+
+    yechan_f_acc.addEventListener('click', () => {
+        copyToClipboard("카카오뱅크 3333108937384")
+        alert('복사되었습니다, 감사합니다.');
+    });
+
+    joan_acc.addEventListener('click', () => {
+        copyToClipboard("하나은행 20491031640107 우주안")
+        alert('복사되었습니다, 감사합니다.');
+    });
+
+    joan_m_acc.addEventListener('click', () => {
+        copyToClipboard("신한 110150433376 김윤선")
+        alert('복사되었습니다, 감사합니다.');
+    });
+
+    joan_f_acc.addEventListener('click', () => {
+        copyToClipboard("신한 110376885816 우복태")
+        alert('복사되었습니다, 감사합니다.');
+    });
+</script>
                     <div class="row">
                         <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
                             <h3 class="oliven-couple-title" id="korean">우리 결혼합니다</h3>
-                            <h4 class="oliven-couple-subtitle" id="korean">September 03, 2022<br />서울대학교 호암교수회관</h4>
+                            <h4 class="oliven-couple-subtitle" id="korean">11am, September 03, 2022<br />서울대학교 호암교수회관</h4>
                         </div>
                     </div>
                 </div>
@@ -212,7 +333,7 @@
                         <div class="section-head col-md-12 text-center">
                             <span><i class="ti-heart"></i></span>
                             <h4 id="korean">결혼식에 참석하셔서<br />자리를 빛내주세요</h4>
-                            <h3 id="korean">2022.09.03</h3>
+                            <h3 id="korean">2022.09.03<br/>오전 11시</h3>
                         </div>
                     </div>
                 </div>
@@ -355,7 +476,7 @@
                             <h2>
                                 <a href="index.html"><img src="images/logo.png" alt=""><span id="korean">윤예찬 <small>♡</small> 우주안</span></a>
                             </h2>
-                            <p class="copyright" id="korean">September 03, 2022 — 서울대학교 호암교수회관</p>
+                            <p class="copyright" id="korean">11am, September 03, 2022 — 서울대학교 호암교수회관</p>
                             <div id="map"></div>
 <script>
 var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
@@ -463,6 +584,7 @@ Kakao.Share.createDefaultButton({
         <script src="js/main.js"></script>
     </div>
     <link rel="stylesheet" href="css/style.css">
+
 </body>
 
 </html>
