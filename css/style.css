@@ -2423,6 +2423,10 @@ body.offcanvas .oliven-nav-toggle {
         color: black;
     }
 
+    .header .caption {
+        padding-bottom: 320px;
+    }
+
     #map {
         margin: auto auto;
         width: 90%;
@@ -2432,7 +2436,7 @@ body.offcanvas .oliven-nav-toggle {
 
     .yakdo img {
         margin: auto auto;
-        width: 400px;
+        width: 320px;
         /* height: 500px; */
     }
 
