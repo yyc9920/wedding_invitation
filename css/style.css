@@ -1934,7 +1934,8 @@ body.offcanvas .oliven-nav-toggle {
 
 #rsvp .container p {
     font-size: 1.4rem;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 .yakdo img {
@@ -2420,7 +2421,6 @@ body.offcanvas .oliven-nav-toggle {
 
     #rsvp .container p {
         font-size: 1.2rem;
-        color: black;
     }
 
     .header .caption {
