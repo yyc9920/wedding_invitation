@@ -2570,11 +2570,22 @@ body.offcanvas .oliven-nav-toggle {
 
 @media (max-width: 472px) {
     #countdown {
-        background-position: -120px 0px;
+        background-position: -30px 0px;
+    }
+
+    #countdown .container h4 {
+        font-size: 24px;
+    }
+
+    #countdown li span {
+        font-size: 32px;
     }
 }
 
 @media (max-width: 420px) {
+    #countdown {
+        background-position: -120px 0px;
+    }
     #seeyou {
         background-position: -35px 0px;
     }
