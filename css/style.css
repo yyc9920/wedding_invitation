@@ -688,7 +688,7 @@ input[type=radio]:checked:before {
 
 #oliven-aside .oliven-logo a span {
     display: block;
-    font-size: 36px;
+    font-size: 34px;
     color: #BD945A;
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
@@ -1937,6 +1937,12 @@ body.offcanvas .oliven-nav-toggle {
     color: black;
 }
 
+.yakdo img {
+    margin: auto auto;
+    width: 500px;
+    /* height: 500px; */
+}
+
 #map {
     margin: auto auto;
     width: 90%;
@@ -2422,6 +2428,12 @@ body.offcanvas .oliven-nav-toggle {
         width: 90%;
         /* width: 400px; */
         height: 300px;
+    }
+
+    .yakdo img {
+        margin: auto auto;
+        width: 400px;
+        /* height: 500px; */
     }
 
     .footer2 .copyright {
